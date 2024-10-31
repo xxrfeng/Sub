@@ -84,13 +84,13 @@ proxies:
     ip-version: ipv4-prefer
     smux:
       enabled: false
-  - name: home1
-    password: Qwe12345@
-    port: 57788
-    server: home.wenddy.top
-    type: socks5
-    username: clash
-    skip-cert-verify: false
-    tls: false
-    benchmark-timeout: 100
-    benchmark-url: http://www.baidu.com
+  # - name: home1
+  #   password: Qwe12345@
+  #   port: 57788
+  #   server: home.wenddy.top
+  #   type: socks5
+  #   username: clash
+  #   skip-cert-verify: false
+  #   tls: false
+  #   benchmark-timeout: 100
+  #   benchmark-url: http://www.baidu.com
