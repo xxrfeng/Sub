@@ -1,1 +1,96 @@
 
+proxies:
+  - name: wendy_rn_fr_hy2_1
+    type: hysteria2
+    server: france.wenddy.top
+    port: 9852
+    password: e52a0197-2e91-4ca1-af7f-67eef116a057
+    up: '50'
+    down: '500'
+    skip-cert-verify: true
+    sni: www.bing.com
+    alpn:
+      - h3
+    ip-version: ipv4-prefer
+    smux:
+      enabled: false
+  - name: wendy_rn_fr_hy2_2
+    type: hysteria2
+    server: france.wenddy.top
+    port: 12345
+    password: e52a0197-2e91-4ca1-af7f-67eef116a057
+    up: '40'
+    down: '500'
+    skip-cert-verify: true
+    sni: bing.com
+    alpn:
+      - h3
+    ip-version: ipv4-prefer
+    smux:
+      enabled: false
+  - name: wendy_rn_fr_hy2_3
+    type: hysteria2
+    server: france.wenddy.top
+    port: 12346
+    password: e52a0197-2e91-4ca1-af7f-67eef116a057
+    up: '40'
+    down: '500'
+    skip-cert-verify: true
+    sni: bing.com
+    alpn:
+      - h3
+    ip-version: ipv4-prefer
+    smux:
+      enabled: false
+  - name: wendy_rn_fr_hy2_4
+    type: hysteria2
+    server: france.wenddy.top
+    port: 12347
+    password: e52a0197-2e91-4ca1-af7f-67eef116a057
+    up: '40'
+    down: '500'
+    skip-cert-verify: true
+    sni: bing.com
+    alpn:
+      - h3
+    ip-version: ipv4-prefer
+    smux:
+      enabled: false
+  - name: wendy_rn_fr_hy2_5
+    type: hysteria2
+    server: france.wenddy.top
+    port: 12348
+    password: e52a0197-2e91-4ca1-af7f-67eef116a057
+    up: '40'
+    down: '500'
+    skip-cert-verify: true
+    sni: bing.com
+    alpn:
+      - h3
+    ip-version: ipv4-prefer
+    smux:
+      enabled: false
+  - name: wendy_ak_us_hy2_1
+    type: hysteria2
+    server: 23.166.24.123
+    port: 16463
+    password: '0508f416-7a91-47d4-9929-63739b484fea'
+    up: '50'
+    down: '500'
+    skip-cert-verify: true
+    sni: bing.com
+    alpn:
+      - h3
+    ip-version: ipv4-prefer
+    smux:
+      enabled: false
+  - name: home1
+    password: Qwe12345@
+    port: 57788
+    server: home.wenddy.top
+    type: socks5
+    username: clash
+    skip-cert-verify: false
+    tls: false
+    benchmark-timeout: 100
+    benchmark-url: http://www.baidu.com
